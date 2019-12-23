@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-body{
-    background: url('./sad_catto.gif');
-    background-repeat: repeat;
+body {
+  background: url("./sad_catto.gif");
+  background-repeat: repeat;
 }
 
 .main {
@@ -17,6 +17,7 @@ body{
   position: relative;
   padding: 30px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .badge {
@@ -38,12 +39,16 @@ body{
   font-size: 65px;
   height: 100%;
   padding-top: 18px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   border-radius: 4px;
 }
 
-.audio{
-    position: relative;
-    margin-top: 30px;
-    margin-left: 15px;
+.audio {
+  position: relative;
+  margin-top: 9px;
+  margin-left: 15px;
+}
+#myTag {
+    margin-top: 6px;
+    font-size: small;
 }
