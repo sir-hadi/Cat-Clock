@@ -4,7 +4,6 @@ function clockIt() {
   let minutes = fullDate.getMinutes();
   let seconds = fullDate.getSeconds();
 
-
   if (hours < 10) {
     hours = "0" + hours;
   }
@@ -15,9 +14,9 @@ function clockIt() {
     seconds = "0" + seconds;
   }
 
-  document.getElementById("hour").innerHTML = hours + ":";
-  document.getElementById("minute").innerHTML = minutes + ":";
+  document.getElementById("hour").innerHTML = hours;
+  document.getElementById("minute").innerHTML = minutes;
   document.getElementById("second").innerHTML = seconds;
-};  
+}
 
-setInterval(clockIt,100);
+setInterval(clockIt, 100);
