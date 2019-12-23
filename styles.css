@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: url('./sad_catto.gif');
+    background-repeat: repeat;
+}
+
+.main {
+  background: #ff69b4;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.badge {
+  width: 103px;
+  background: #3564ff;
+  color: white;
+  padding: 5px 10px;
+  font-family: cursive;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 37%;
+}
+
+.clock {
+  background: white;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 20px;
+  font-family: cursive;
+  border-radius: 4px;
+}
+
+.audio{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 15px;
+}
